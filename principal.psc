@@ -49,6 +49,8 @@ Algoritmo conversacion
 			FinSi
 		FinSi
 	FinSi
+
+# dependiendo de su edad se enviara un mensaje 
 	
 	Escribir "digame"
 	Escribir '¿cual es tu edad?'
@@ -87,28 +89,14 @@ Algoritmo conversacion
 		FinSi
 	FinSi
 	
-	Escribir "dime"
-	Escribir '¿te gustaria jugar un juego de preguntas?'
-	Leer resp
-	
-	si(resp = "si")
-		Escribir "!que bien¡"
-	SiNo
-		si(resp = "no")
-			Escribir "pense que te gustaban los juegos :("
-			Escribir "mejor sigamos conociendonos"
-			
-			
-			
-		FinSi
-	FinSi
-	
-	
-	Escribir ""
-	Escribir "ººººmensajeºººº"
-	Escribir "ingresa 1=si y 2=no"
-	Escribir ""
-	escribir "¿colon descubrio america?"
+# un minijuego de preguntas y respuesta 
+
+	Escribir "que tal un juego de preguntas"	
+	Escribir "                             "
+	Escribir "       ººººmensajeºººº       "
+	Escribir "     ingresa 1=si y 2=no     "
+	Escribir "                             "
+	escribir "  ¿colon descubrio america?  "
 	Leer R1;
 	
 	// numero 1 (si) y 2 (no) respuesta
