@@ -89,7 +89,7 @@ Algoritmo conversacion
 		FinSi
 	FinSi
 	
-# un minijuego de preguntas y respuesta 
+# un minijuego de preguntas y respuestas  
 
 	Escribir "que tal un juego de preguntas"	
 	Escribir "                             "
