@@ -27,6 +27,8 @@ Algoritmo conversacion
 	FinSi
 	
 	Leer animo
+
+# segun el estado de animo se enviara un mensaje 
 	
 	Si (animo='feliz') Entonces
 		Escribir 'me alegro'
